@@ -1,0 +1,13 @@
+# Core dependencies
+openai>=2.15.0
+pyyaml>=6.0.3
+requests>=2.32.5
+
+# Runtime dependencies (auto-installed with core packages)
+# annotated-types>=0.7.0
+# anyio>=4.12.1
+# certifi>=2024.0.0
+# distro>=1.9.0
+# idna>=3.0
+# sniffio>=1.3.0
+# typing-extensions>=4.9.0

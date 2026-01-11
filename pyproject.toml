@@ -1,0 +1,22 @@
+[project]
+name = "skills-runtime"
+version = "0.1.0"
+description = "A modular AI Agent framework with skill-based architecture"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.15.0",
+    "pyyaml>=6.0.3",
+    "requests>=2.32.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/Peng416/skills-runtime"
+Repository = "https://github.com/Peng416/skills-runtime"
+Documentation = "https://github.com/Peng416/skills-runtime/blob/main/TECHNICAL_DOCUMENTATION.md"
+Issues = "https://github.com/Peng416/skills-runtime/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
